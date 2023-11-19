@@ -1,0 +1,24 @@
+class HelloWorld {
+    static void Main() {
+        
+        int n =10;
+        int bs= n*2-1;
+        for (int i=1; i<=bs; i+=2)
+        {
+            int space = (bs-i)/2;
+            for (int j=1; j<=space; j++)
+            {
+                Console.Write(" ");
+            }
+            for (int j=1; j<=i; j++)
+            {
+                Console.Write("*");
+            }
+            for (int j=1; j<=space; j++)
+            {
+                Console.Write(" ");
+            }
+             Console.WriteLine();
+        }
+    }
+}
