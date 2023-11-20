@@ -1,0 +1,13 @@
+class HelloWorld {
+    static void Main() {
+        int n = 1234;
+        int count = 0;
+        do
+        {
+                n=n/10;
+                Console.WriteLine(n);
+                count+=1;
+        }while(n!=0);
+        Console.WriteLine(count);
+    }
+}
