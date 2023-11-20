@@ -11,3 +11,14 @@ class HelloWorld {
         Console.WriteLine(count);
     }
 }
+
+
+-----------
+optimal solution
+class HelloWorld {
+    static void Main() {
+        int n = 1234;
+        string s = n+"";
+        Console.WriteLine(s.Length);
+    }
+}
